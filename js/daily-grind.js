@@ -19,6 +19,7 @@
 let myDate = new Date();
 let myDay = myDate.getDay();
 let today = "";
+let coffee = {};
 
 
 //use location object to access querystring (address bar)
@@ -30,7 +31,7 @@ console.log(queryString);
 //separate query string parameters
 const urlParams = new URLSearchParams(queryString);
 
-
+myDay = urlParams.get("day");
 
 switch(myDay){
 
