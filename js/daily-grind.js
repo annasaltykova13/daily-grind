@@ -26,12 +26,17 @@ switch(myDay){
     	today =  "Sunday";
  	break;
 
-    case 1:
-        today = "Monday";
+    case 2:
+   		today = "Monday";
         coffee = {
-
-        }
-    break;
+            name: "Mocha",
+            pic: "mocha.jpg", 
+            alt: "A picture of mocha.", 
+            color: "beige", 
+            day: "Monday", 
+            desc: `Mocha on Mondays!`
+        };
+ 	break;
 
  	case 2:
    		today = "Tuesday";
@@ -42,6 +47,18 @@ switch(myDay){
             color: "pink", 
             day: "Tuesday", 
             desc: `I like me some Bubble Tea!`
+        };
+ 	break;
+
+    case 5:
+   		today = "Friday";
+        coffee = {
+            name: "Drip",
+            pic: "drip.jpg", 
+            alt: "A pic of drip coffee.", 
+            color: "brown", 
+            day: "Friday", 
+            desc: `I need constant drip!`
         };
  	break;
 
