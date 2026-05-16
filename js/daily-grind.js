@@ -45,7 +45,7 @@ switch(myDay){
    		today = "Sunday";
         coffee = {
             name: "Frappaccino",
-            pic: "frappacino.jpg", 
+            pic: "frappaccino.jpg", 
             alt: "A pic of frappacino", 
             color: "purple", 
             day: "Sunday", 
