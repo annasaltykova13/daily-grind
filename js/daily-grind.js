@@ -41,11 +41,19 @@ myDay = parseInt(myDay);
 
 switch(myDay){
 
- 	case 0:
-    	today =  "Sunday";
+ 	 case 0:
+   		today = "Sunday";
+        coffee = {
+            name: "Frappaccino",
+            pic: "frappacino.jpg", 
+            alt: "A pic of frappacino", 
+            color: "purple", 
+            day: "Sunday", 
+            desc: `Frappacino Sundays will enegrize for the upcoming week!`
+        };
  	break;
 
-    case 2:
+    case 1:
    		today = "Monday";
         coffee = {
             name: "Mocha",
@@ -65,7 +73,31 @@ switch(myDay){
             alt: "A picture of a yummy bubble tea.", 
             color: "pink", 
             day: "Tuesday", 
-            desc: `I like me some Bubble Tea!`
+            desc: `I like me some Bubble Tea on Tuesdays!`
+        };
+ 	break;
+
+    case 3:
+   		today = "Wednesday";
+        coffee = {
+            name: "Caramel Latte",
+            pic: "caramel-latte.jpg", 
+            alt: "A picture of caramel latte", 
+            color: "yellow", 
+            day: "Wednesdsy", 
+            desc: `Caramel Latee on Wednesdays will give a boost!`
+        };
+ 	break;
+
+    case 4:
+   		today = "Thursday";
+        coffee = {
+            name: "Cold Brew",
+            pic: "cold-brew.jpg", 
+            alt: "A picture of a cold brew", 
+            color: "red", 
+            day: "Thursday", 
+            desc: `Thursday Cold Brew is everything!`
         };
  	break;
 
@@ -78,6 +110,18 @@ switch(myDay){
             color: "brown", 
             day: "Friday", 
             desc: `I need constant drip!`
+        };
+ 	break;
+
+     case 6:
+   		today = "Saturday";
+        coffee = {
+            name: "Pumpkin-spice Latte",
+            pic: "pumpkin-spice-latte.jpg", 
+            alt: "A pic of pumpkin-spice latte.", 
+            color: "green", 
+            day: "Saturday", 
+            desc: `Pumpkin-spice Latte on Saturdays is a reward!`
         };
  	break;
 
