@@ -85,7 +85,7 @@ switch(myDay){
             alt: "A picture of caramel latte", 
             color: "yellow", 
             day: "Wednesdsy", 
-            desc: `Caramel Latee on Wednesdays will give a boost!`
+            desc: `Caramel Latee on Wednesdays will give a boost.`
         };
  	break;
 
